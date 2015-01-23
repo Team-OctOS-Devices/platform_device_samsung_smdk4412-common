@@ -174,6 +174,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bq.gpu_to_cpu_unsupported=1 \
     debug.hwui.render_dirty_regions=false
 
+# Carrier Label
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ril.force_eri_from_xml=true
+
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # Set default USB interface
